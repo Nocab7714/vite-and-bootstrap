@@ -23,7 +23,7 @@
     </div>
   </header>
   <!-- 我的冒險故事 -->
-  <div class="container py-5">
+  <section class="container py-5">
     <div class="row justify-content-center flex-md-row-reverse gy-3">
       <div class="col-md-4">
         <img
@@ -48,9 +48,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- 三欄卡片 -->
-  <div class="bg-light py-4 p-md-5 mt-5">
+  <section class="bg-light py-4 p-md-5 mt-5">
     <div class="container">
       <h2 class="display-4 text-center mb-4">我的實戰作品</h2>
       <div class="row row-cols-1 row-cols-md-3 gy-4">
@@ -58,11 +58,11 @@
           <div class="card text-white border-5 h-100">
             <img
               src="https://images.unsplash.com/photo-1615976909545-a2d402c7dac3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-              alt=""
+              alt="小說作品圖片"
               class="card-img h-100 object-fit-cover"
             />
             <div class="card-img-overlay top-auto bg-dark-gradient">
-              <h5 class="card-title">小說作品</h5>
+              <h3 class="card-title">小說作品</h3>
               <p class="card-text">
                 我們都有個共識，若問題很困難，那就勢必不好解決。經過上述討論，需要考慮周詳小說的影響及因應對策。
               </p>
@@ -76,11 +76,11 @@
           <div class="card text-white border-5 h-100">
             <img
               src="https://images.unsplash.com/photo-1461902144240-fcb450abaa4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-              alt=""
+              alt="設計小物圖片"
               class="card-img h-100 object-fit-cover"
             />
             <div class="card-img-overlay top-auto bg-dark-gradient">
-              <h5 class="card-title">設計小物</h5>
+              <h3 class="card-title">設計小物</h3>
               <p class="card-text">
                 如果別人做得到，那我也可以做到。我們都有個共識，若問題很困難，那就勢必不好解決。
               </p>
@@ -94,11 +94,11 @@
           <div class="card text-white border-5 h-100">
             <img
               src="https://images.unsplash.com/photo-1527271982979-83fea3eb3582?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
-              alt=""
+              alt="飲品圖片"
               class="card-img h-100 object-fit-cover"
             />
             <div class="card-img-overlay top-auto bg-dark-gradient">
-              <h5 class="card-title">飲品</h5>
+              <h3 class="card-title">飲品</h3>
               <p class="card-text">
                 我們不得不面對一個非常尷尬的事實，那就是，領悟其中的道理也不是那麼的困難。恩格斯說過，沒有掌握技術的人才，技術就是死。
               </p>
@@ -110,7 +110,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- footer -->
   <footer class="bg-primary text-white p-5">
     <div class="container">
@@ -154,7 +154,6 @@
               >
             </li>
           </ul>
-          <p>ⓒ 2022 by 陳 六角 created with Bootstrap5</p>
         </div>
         <!-- 表單 -->
         <form class="col-md-5 needs-validation" novalidate>
@@ -188,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="mb-3 col-md-12">
+          <div class="mb-3">
             <label for="email" class="form-label">Email</label>
             <input
               type="email"
@@ -216,6 +215,7 @@
           </div>
         </form>
       </div>
+      <p class="text-center mt-5">ⓒ 2022 by 陳 六角 created with Bootstrap5</p>
     </div>
   </footer>
 </template>
@@ -230,8 +230,8 @@
 .bg-dark-gradient {
   background-image: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.8)
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.9)
   );
   // linear-gradient( 方向性,色彩 )
 }
